@@ -1,0 +1,13 @@
+# 1. 数据集根目录（建议用正斜杠或双反斜杠）
+path: F:\\yolov5\\dataset  # 或 F:\\yolov11\\dataset
+
+# 2. 数据集路径（相对于path的路径）
+train: images\\train  # 训练集
+val: images\\val      # 验证集
+
+# 3. 类别定义
+nc: 12  # 类别数量
+names: [
+  "goods_1", "goods_2", "goods_3", "goods_4", "goods_5", "goods_6",
+  "paper_1", "paper_2", "paper_3", "paper_4", "paper_5", "paper_6"  # 注意拼写统一
+]
